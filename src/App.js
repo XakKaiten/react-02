@@ -35,9 +35,7 @@ function Board({ xIsNext, squares, onPlay }) {
       
     }
         
-    
-    <label htmlFor='status'>style={{color: username ? 'blue' : 'red'}}> {(username)? 'X' : 'O'}</label>
-        
+     
     return (
         <>
             <div className="status">{status}</div>
